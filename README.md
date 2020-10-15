@@ -1,6 +1,6 @@
 # udacity-c3-restapi-user
 
-udacity-c3-restapi-user is the backend user microservice that supports the Udagram simple cloud application.
+udacity-c3-restapi-user is the backend user microservice that supports the Udagram simple cloud application.  Please visit the [deployment repo](https://github.com/herniated/udacity-c3-deployment) for more information.
 
 ### Prerequisite
 1. This microservice depends on the Node Package Manager (NPM). You will need to download and install Node from [https://nodejs.com/en/download](https://nodejs.org/en/download/). This will allow you to be able to run `npm` commands.
@@ -26,7 +26,7 @@ Create a PostgreSQL database either locally or on AWS RDS. Set the config values
     ```bash
     npm run dev
     ```
-* You can visit `http://localhost:8080/api/v0/feed` in your web browser to verify that the application is running. You should see a JSON payload. Feel free to play around with Postman to test the API's.
+* You can visit `http://localhost:8080/api/v0/user/auth0/login` with Postman to test the API's.
 
 ## Tips
 1. In `set_env.sh`, environment variables are set with `export $VAR=value`. Setting it this way is not permanent; every time you open a new terminal, you will have to run `set_env.sh` to reconfigure your environment variables. To verify if your environment variable is set, you can check the variable with a command like `echo $POSTGRES_USERNAME`.
